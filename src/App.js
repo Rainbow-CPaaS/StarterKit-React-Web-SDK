@@ -1,22 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import rainbowSDK from "rainbow-web-sdk";
+import "./App.css";
 
 function App() {
+  console.log("*** Welcome to Rainbow Web SDK Starter Kit for React ***");
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Rainbow Web SDK v{rainbowSDK.version()}</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://hub.openrainbow.com/#/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Go to Rainbow HUB and start making your own app!
         </a>
       </header>
     </div>
