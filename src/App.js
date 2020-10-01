@@ -4,6 +4,9 @@ import "./App.css";
 
 function App() {
   console.log("*** Welcome to Rainbow Web SDK Starter Kit for React ***");
+  /* Add window object to allow debugging from the console */
+  window.rainbowSDK = rainbowSDK;
+
   return (
     <div className="App">
       <header className="App-header">
