@@ -8497,6 +8497,11 @@ raf@^3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
+rainbow-web-sdk@^1.76.0:
+  version "1.86.0"
+  resolved "https://registry.yarnpkg.com/rainbow-web-sdk/-/rainbow-web-sdk-1.86.0.tgz#515f1237eebee8d56fbc8440ea300ee1d9496907"
+  integrity sha512-KrS3oT0M3r/uhsXQGXSbmPj8IKWbBIf7uzUPogN2Cwq+bQ9e2QtWCW2xmKjP7Bh2rz2FnHBvp1O7vl9E/d0yzw==
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -9974,9 +9979,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
