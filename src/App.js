@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Rainbow Web SDK v{rainbowSDK.version()}</p>
+        <p>Rainbow Web SDK {rainbowSDK.version()}</p>
         <a
           className="App-link"
           href="https://hub.openrainbow.com/#/"
